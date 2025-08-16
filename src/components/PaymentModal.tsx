@@ -207,8 +207,16 @@ export const PaymentModal = ({
                 <Smartphone className="w-4 h-4" />
                 <span>Or use UPI ID: ayushiraoo@axl</span>
               </div>
+               {/* International Customer Message */}
+               <div className="flex items-start gap-2 text-sm text-blue-600 bg-blue-50 p-3 rounded-lg border border-blue-200">
+                 <MessageCircle className="w-5 h-5 flex-shrink-0 mt-0.5 text-blue-500" />
+                 <div>
+                   <p className="font-medium text-blue-700">International Customers:</p>
+                   <p className="text-blue-600">Please purchase directly via <a href="https://t.me/collection_hub_here" target="_blank" rel="noopener noreferrer" className="font-semibold underline flex items-center gap-1 inline-flex">Telegram <MessageCircle className="w-4 h-4" /></a> for support.</p>
+                 </div>
+               </div>
             </div>
-
+ 
             <div className="flex gap-3">
               <Button variant="outline" onClick={onBack} className="flex-1">
                 Back

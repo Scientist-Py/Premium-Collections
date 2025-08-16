@@ -31,13 +31,18 @@ import julia from "@/assets/julia.jpg";
 import blake from "@/assets/blake.jpg";
 import alyx from "@/assets/alyx.jpg";
 import adria from "@/assets/adria.jpg";
+import lenalovings from "@/assets/lenalovings.jpg";
+import agieFaith from "@/assets/angie faith.jpg";
+import chloeSurreal from "@/assets/Chloe Surreal.jpg";
+import abellaDanger from "@/assets/Abella Danger.jpg";
+import brandiLove from "@/assets/Brandi Love.jpg";
 
 const personalities = [
   {
     id: "uma-north",
     name: "Uma North",
     image: uma,
-    videoCount: 42,
+    videoCount: 48,
     rating: 4.9,
     isPopular: true,
     orders: 2100,
@@ -63,12 +68,12 @@ const personalities = [
     id: "mia-molvaka",
     name: "Mia Molvaka",
     image: molvala,
-    videoCount: 38,
+    videoCount: 45,
     rating: 4.8,
     isPopular: false,
     orders: 1550,
     repeatRate: 39,
-    price: 229,
+    price: 329,
     description: "Mia Molvaka brings a unique style and energy to every video. This collection showcases her versatility across different themes and settings, all captured with professional-grade equipment.",
     features: [
       "Studio Quality Production",
@@ -89,7 +94,7 @@ const personalities = [
     id: "dani-daniels",
     name: "Dani Daniels",
     image: dani,
-    videoCount: 45,
+    videoCount: 52,
     rating: 4.9,
     isPopular: true,
     orders: 1980,
@@ -115,12 +120,12 @@ const personalities = [
     id: "lana-rohdes",
     name: "Lana Rohdes",
     image: lana,
-    videoCount: 41,
+    videoCount: 47,
     rating: 4.7,
     isPopular: false,
     orders: 1320,
     repeatRate: 33,
-    price: 239,
+    price: 389,
     description: "Lana Rohdes delivers authentic and engaging content with a focus on quality and viewer satisfaction. This collection features her best work with professional editing and sound.",
     features: [
       "Authentic Content",
@@ -141,7 +146,7 @@ const personalities = [
     id: "mia-khalifa",
     name: "Mia Khalifa",
     image: mia,
-    videoCount: 37,
+    videoCount: 43,
     rating: 4.8,
     isPopular: false,
     orders: 1180,
@@ -167,12 +172,12 @@ const personalities = [
     id: "julia-ann",
     name: "Julia Ann",
     image: julia,
-    videoCount: 43,
+    videoCount: 49,
     rating: 4.9,
     isPopular: true,
     orders: 2040,
     repeatRate: 44,
-    price: 289,
+    price: 369,
     description: "Julia Ann's premium collection showcases her legendary career with the highest quality videos available. This bundle includes her most celebrated performances.",
     features: [
       "Legendary Content",
@@ -193,7 +198,7 @@ const personalities = [
     id: "blake-bloosm",
     name: "Blake Bloosm",
     image: blake,
-    videoCount: 36,
+    videoCount: 42,
     rating: 4.7,
     isPopular: false,
     orders: 960,
@@ -219,12 +224,12 @@ const personalities = [
     id: "alyx-star",
     name: "Alyx Star",
     image: alyx,
-    videoCount: 39,
+    videoCount: 44,
     rating: 4.8,
     isPopular: false,
     orders: 1270,
     repeatRate: 36,
-    price: 229,
+    price: 459,
     description: "Alyx Star's collection features her most engaging and high-quality content. Each video is professionally produced with attention to detail and viewer satisfaction.",
     features: [
       "Engaging Content",
@@ -245,12 +250,12 @@ const personalities = [
     id: "adria-rea",
     name: "Adria Rea",
     image: adria,
-    videoCount: 40,
+    videoCount: 46,
     rating: 4.8,
     isPopular: true,
     orders: 1850,
     repeatRate: 42,
-    price: 289,
+    price: 349,
     description: "Adria Rea delivers exceptional content with a focus on quality and authenticity. This collection includes her best work with professional production and editing.",
     features: [
       "Exceptional Quality",
@@ -264,6 +269,136 @@ const personalities = [
       avgRating: 4.8,
       deliveryTime: "2-4 minutes",
       fileSize: "8.2 GB",
+      format: "MP4/1080p"
+    }
+  },
+  {
+    id: "lena-lovings",
+    name: "Lena Lovings",
+    image: lenalovings,
+    videoCount: 41,
+    rating: 4.6,
+    isPopular: false,
+    orders: 850,
+    repeatRate: 28,
+    price: 559,
+    description: "Lena Lovings offers a fresh perspective with her captivating content. This collection features her unique style and high-quality visuals, perfect for a new viewing experience.",
+    features: [
+      "Captivating Content",
+      "Unique Style",
+      "High-Quality Visuals",
+      "Engaging Scenarios",
+      "Bonus Behind-the-Scenes"
+    ],
+    stats: {
+      totalViews: "1.0M+",
+      avgRating: 4.6,
+      deliveryTime: "1-3 minutes",
+      fileSize: "6.0 GB",
+      format: "MP4/1080p"
+    }
+  },
+  {
+    id: "agie-faith",
+    name: "Agie Faith",
+    image: agieFaith,
+    videoCount: 43,
+    rating: 4.7,
+    isPopular: false,
+    orders: 950,
+    repeatRate: 30,
+    price: 349,
+    description: "Agie Faith brings a vibrant and dynamic energy to her collection. Enjoy professionally produced videos with crisp visuals and immersive sound, highlighting her best performances.",
+    features: [
+      "Vibrant & Dynamic",
+      "Professionally Produced",
+      "Crisp Visuals",
+      "Immersive Sound",
+      "Exclusive Performances"
+    ],
+    stats: {
+      totalViews: "1.1M+",
+      avgRating: 4.7,
+      deliveryTime: "1-3 minutes",
+      fileSize: "6.3 GB",
+      format: "MP4/1080p"
+    }
+  },
+  {
+    id: "chloe",
+    name: "Chloe",
+    image: chloeSurreal,
+    videoCount: 38,
+    rating: 4.5,
+    isPopular: false,
+    orders: 700,
+    repeatRate: 25,
+    price: 379,
+    description: "Chloe's collection offers a fresh and exciting array of content, showcasing her unique charm and creativity. Each video is designed to provide an engaging and memorable viewing experience.",
+    features: [
+      "Fresh & Exciting Content",
+      "Unique Charm",
+      "Creative Scenarios",
+      "High-Definition Quality",
+      "Exclusive Behind-the-Scenes"
+    ],
+    stats: {
+      totalViews: "900K+",
+      avgRating: 4.5,
+      deliveryTime: "1-2 minutes",
+      fileSize: "5.8 GB",
+      format: "MP4/1080p"
+    }
+  },
+  {
+    id: "abella-danger",
+    name: "Abella Danger",
+    image: abellaDanger,
+    videoCount: 44,
+    rating: 4.9,
+    isPopular: true,
+    orders: 2200,
+    repeatRate: 47,
+    price: 439,
+    description: "Abella Danger is a dynamic performer known for her intense energy and captivating presence. This exclusive collection features her most popular and highest-rated content with exceptional production quality and engaging scenarios.",
+    features: [
+      "Intense Energy & Performance",
+      "High-Quality Production",
+      "Multiple Scenes & Themes",
+      "Professional Audio",
+      "Exclusive Behind-the-Scenes"
+    ],
+    stats: {
+      totalViews: "2.7M+",
+      avgRating: 4.9,
+      deliveryTime: "2-4 minutes",
+      fileSize: "9.2 GB",
+      format: "MP4/1080p"
+    }
+  },
+  {
+    id: "brandi-love",
+    name: "Brandi Love",
+    image: brandiLove,
+    videoCount: 41,
+    rating: 4.8,
+    isPopular: false,
+    orders: 1680,
+    repeatRate: 41,
+    price: 329,
+    description: "Brandi Love brings sophistication and experience to every video. This collection showcases her legendary career with the highest quality videos available, featuring professional production and engaging content.",
+    features: [
+      "Sophisticated Content",
+      "Legendary Career Highlights",
+      "Professional Production",
+      "Multiple Formats",
+      "Exclusive Bonus Material"
+    ],
+    stats: {
+      totalViews: "2.1M+",
+      avgRating: 4.8,
+      deliveryTime: "2-4 minutes",
+      fileSize: "8.7 GB",
       format: "MP4/1080p"
     }
   },
